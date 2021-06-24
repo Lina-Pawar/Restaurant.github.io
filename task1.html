@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>Learnovate-Task1</title>
+</head>
+<style>
+*{ margin:0;}
+.fa{
+  padding:15px;
+  font-size:30px;
+  width:5px;
+  text-align:center;
+  text-decoration:none;
+}
+.fa:hover{
+  opacity:0.7;
+}
+.fa-whatsapp{
+  color:white; 
+}
+.fa-google-plus{
+  color:white; 
+}
+.fa-facebook-official{
+  color:white;
+}
+.fa-instagram{
+  color:white;
+}
+.fa-youtube-play{
+  color:white;
+}
+.fa-commenting-o{
+  color:white;
+}
+.fa-twitter{
+  color:white; 
+}
+.fa-skype{
+  color:white; 
+}
+.fa-chevron-down{
+  color:white;
+}
+.fa-map-marker{
+ color:white;
+}
+.fa-phone{
+ color:white;
+}
+.fa-envelope{
+ color:white;
+}
+.bg-img{
+  background-image:url("Restaurant.png");
+  min-height:650;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.arial{
+  font-family:Arial,Helvetica,sans-serif;
+  color:white;
+}
+.container{
+  width:100%;
+  top:0;
+}
+.topbar{
+  height:45px;
+  width:100%;
+  border-bottom:2px dotted white;
+}
+.topnav{
+  overflow:hidden;
+  width:1300px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+.topnav a{
+  font-family:Arial,Helvetica,sans-serif;
+  text-align:center;
+  padding:60px 18px;
+  text-decoration:none;
+}
+.green{
+  color:#13a84c;
+  font-size:22px;
+}
+.other{
+  color:white;
+  font-size:16px;
+}
+select{
+  border:0;
+  color:white;
+  font-size:16px;
+  background: transparent;
+}
+option{
+  color:black;
+}
+.other:hover{
+  background-color:black;
+}
+.text1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rounded{
+  position:relative;
+  top:330;
+  left:50%;
+  transform:translateX(-50%);  
+  width:200px;
+  border-radius:15px;
+  background:#fff;
+  padding:20px;
+  height:20px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:22px;
+  color:#13a84c;
+  text-align:center;
+}
+.blog{
+  position:relative;
+  left:50%;
+  transform:translateX(-50%); 
+  height:300px;
+  width:1300px;
+  border-width:2px;
+  background:#fff;
+}
+.blog:hover{
+  border:2px solid #13a84c;
+  background-color:white;
+}
+.title{
+  font-size:22px;
+  padding:15px;
+  color:black;
+}
+.blog:hover .title{
+  color:#13a84c;
+}
+.hours{
+  background-color:#13a84c;
+  padding:20px;
+}
+.table{
+  width:100%;
+  position:relative;
+  color:white;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:20px;
+  text-align:center;
+}
+.footer{
+  height:360px;
+  background-color:black;
+  color:white;
+  font-family:Arial,Helvetica,sans-serif;
+}
+.email{
+  height:40px;
+  width:300px;
+  padding:10px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:16px;
+}
+.submit{
+  color:white;
+  background-color:#13a84c;
+  height:40px;
+  width:300px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:20px;
+  border:0;
+}
+.submit:hover{
+  background-color:white;
+  color:#13a84c;
+  border:2px solid #13a84c;
+}
+.black{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:16px;
+  color:black;
+}
+</style>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="bg-img">
+<div class="container">
+<div class="topbar">
+<a href="#" class="fa fa-whatsapp"></a>
+<a href="#" class="fa fa-google-plus"></a>
+<a href="#" class="fa fa-facebook-official"></a>
+<a href="#" class="fa fa-commenting-o"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-skype"></a>
+<table style="float:right;">
+<tr>
+<td href="mailto:info@educationpro.com" class="fa fa-envelope" style="padding-right:20px;"></td>
+<td class="arial" style="padding-right:40px;">info@educationpro.com</td>
+<td href="tel:+977-9813639131" class="fa fa-phone" style="padding-right:20px;-webkit-transform: scaleX(-1);transform: scaleX(-1);"></td>
+<td class="arial" style="padding-right:40px;">+977 9813639131</td>
+<td class="arial" style="padding-right:20px;">Login / Register</td>
+</tr></table>
+</div>
+<div class="topnav">
+<a><img src="icon.png" style="padding-top:30px;"></a>
+<a class="green">GREEN LEAF RESTRO</a>
+<a href="#contact" class="other" style="float:right">CONTACT</a>
+<a href="#about" class="other" style="float:right">ABOUT</a>
+<a class="other" style="float:right"><select name="ROOMS">
+  <option value="event">EVENT</option>
+  <option value="events">Event1</option>
+  <option value="events">Event2</option>
+  <option value="events">Event3</option></select></a>
+<a class="other" style="float:right"><select name="GALLERY">
+  <option value="event">GALLERY</option>
+  <option value="events">..</option>
+  <option value="events">..</option>
+  <option value="events">..</option></select></a>
+<a class="other" style="float:right"><select name="ROOMS">
+  <option value="event">ROOMS</option>
+  <option value="events">Single</option>
+  <option value="events">Double</option>
+  <option value="events">Triple</option></select></a>
+<a href="#home" class="other" style="float:right" >HOME</a>
+</div></div>
+<div class="text1 arial" style="font-family:Brush Script MT;font-size:35px;">Short info about us</div>
+<div class="text2 arial" style="font-size:35px;"><b>GET IN TOUCH WITH US</b></div>
+<div class="rounded"><b>Home > Blogs</b></div>
+</div>
+<br><br><br><br>
+<div class="blog">
+<img src="Burger.png" style="float:left;" width=395px,height=395px>
+<table style="padding-top:20px;padding-left:10px;">
+<tr>
+<td colspan=6><text class="arial title"><b>Hand Make Ingredients</b></text></td>
+</tr>
+<tr>
+<td><p class="fa fa-calendar"></p></td>
+<td class="arial black" id="date"><script>document.getElementById("date").innerHTML=String(new Date().getDate()).padStart(2,'0')+"/"+String(new Date().getMonth() + 1).padStart(2,'0')+"/"+String(new Date().getFullYear())</script></td>
+<td><p class="fa fa-user black"></p></td>
+<td class="arial black">Admin</td>
+<td><p class="fa fa-comment" id="date"></p></td>
+<td class="arial black">5 Comments</td>
+</tr></table>
+<table style="padding-left:20px;">
+<tr>
+<td class="black" style="padding-bottom:15px;padding-right:15px;">Pelientesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ves-tibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper. Aenean ultricies mi veat est. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper.
+</td>
+</tr>
+<tr><td><input type="submit" class="submit" value="READ MORE" style="width:200px;height:50px;"></td></tr>
+</table>
+</div>
+<br><br>
+<div class="blog">
+<img src="Burger.png" style="float:left;" width=395px,height=395px>
+<table style="padding-top:20px;padding-left:10px;">
+<tr>
+<td colspan=6><text class="arial title"><b>Hand Make Ingredients</b></text></td>
+</tr>
+<tr>
+<td><p class="fa fa-calendar"></p></td>
+<td class="arial black" id="date"><script>document.getElementById("date").innerHTML=String(new Date().getDate()).padStart(2,'0')+"/"+String(new Date().getMonth() + 1).padStart(2,'0')+"/"+String(new Date().getFullYear())</script></td>
+<td><p class="fa fa-user black"></p></td>
+<td class="arial black">Admin</td>
+<td><p class="fa fa-comment" id="date"></p></td>
+<td class="arial black">5 Comments</td>
+</tr></table>
+<table style="padding-left:20px;">
+<tr>
+<td class="black" style="padding-bottom:15px;padding-right:15px;">Pelientesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ves-tibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper. Aenean ultricies mi veat est. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper.
+</td>
+</tr>
+<tr><td><input type="submit" class="submit" value="READ MORE" style="width:200px;height:50px;"></td></tr>
+</table>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section class="footer">
+<div class="hours">
+<table class="table" width=100%>
+<tr>
+<td rowspan="2" valign="middle">OPENING HOURS</td>
+<td style="border-right:2px solid white;">Sunday</td>
+<td style="border-right:2px solid white;">Monday</td>
+<td style="border-right:2px solid white;">Tuesday</td>
+<td style="border-right:2px solid white;">Wednesday</td>
+<td style="border-right:2px solid white;">Thursday</td>
+<td style="border-right:2px solid white;">Friday</td>
+<td>Saturday</td>
+</tr>
+<tr>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td style="border-right:2px solid white;">6am - 10pm</td>
+<td>6am - 10pm</td>
+</tr>
+</table>
+</div>
+<div>
+<table width=100% style="padding:50px">
+<tr>
+<td><h3 class="green"> GREEN RESTAURANT PVT. LTD.</h3></td>
+<td><h3 class="green"> FOLLOW US</h3></td>
+<td><h3 class="green"> NEWSLETTER</h3></td>
+</tr>
+<tr>
+<td><text class="fa fa-map-marker green"><class="arial"></text><text class="arial"> Samakhusi road,Gongabu,Kathmandu</text></td>
+<td><text class="fa fa-facebook-official green"></text><text class="arial"> Facebook</text></td>
+<td><text class="arial">We send you latest offers and news at least once a week.</text></td>
+</tr>
+<tr>
+<td><text class="fa fa-phone green"></text><text class="arial"> +977 9840059834</text></td>
+<td><text class="fa fa-instagram green"></text><text class="arial"> Instagram</text></td>
+<td><input type="email" class="email" name="email" placeholder="Email address*"></td>
+</tr>
+<tr>
+<td><text class="fa fa-envelope green"></text><text class="arial"> info@syderslab.com</text></td>
+<td><text class="fa fa-youtube-play green"></text><text class="arial"> Youtube</text></td>
+<td><input type="submit" class="submit" value="Subscribe"></td>
+</tr>
+</table>
+</div>
+<div><p  class="black"align="center">© Copyright 2019 All Rights reserved. <text style="color:green;">Green Leaf Restro pro</text> by Lab Theme. Powered by Wordpress.</div>
+</section>
+</body>
+</html>
